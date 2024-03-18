@@ -1,0 +1,220 @@
+body {
+    font-family: Arial, sans-serif;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 26, 26);
+    color:white;
+
+}
+
+.container {
+    display: flex;
+    text-align: center;
+        /* justify-content: space-around; */
+        /* margin: 40px 0; */
+        padding: 10%;
+        
+    }
+    .container-item{
+        width: 200px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        text-align: center;
+        border-color:  rgb(230, 169, 109);
+margin-right: 20px;
+box-shadow: 0px 0px 10px   rgb(230, 169, 109);
+          }
+/* to make the image fit properly* */
+.container-item img{
+    object-fit: cover;
+
+}
+    
+
+
+li {
+    list-style-type: none;
+    display: block;
+    margin-right: 80px;
+    text-decoration: none;
+    float: left;
+    flex-grow: 1;
+    color: #fff;
+}
+
+.pet {
+  color:  rgb(230, 169, 109);
+    
+    padding-top: 30px;
+    font-size: xx-large;
+}
+
+.view-btn {
+ background-color:  rgb(230, 169, 109);
+    border: 1px solid;
+    display: block;
+    padding: 20px 30px 20px 30px;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    /* text-align: center;* */
+
+
+}
+
+.about {
+  color:  rgb(230, 169, 109);
+    
+
+}
+
+.slogan {
+    color:  rgb(230, 169, 109);
+
+
+}
+
+input {
+    color: rgb(185, 185, 176);
+    display: block;
+    padding: 10px 20px 10px 20px;
+    margin-right: 8px;
+    margin-left: 40%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    color:black;
+
+}
+
+.read-btn {
+    text-align: center;
+    display: block;
+    padding: 8px;
+    /* padding: 10px 20px 10px 20px; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:black;
+    background-color:  rgb(230, 169, 109);
+  
+
+
+
+}
+
+.btn {
+    color:black;
+    display: block;
+    padding: 30px 50px 30px 50px;
+    margin-right: 40;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color:   rgb(230, 169, 109);
+  
+
+}
+
+.about-us {
+    padding: 20px;
+}
+.read-more {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    /* padding: 10px 20px 10px 20px; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:black;
+  background-color:  rgb(230, 169, 109);
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 2px;
+    border-radius:10px;
+    /* box-shadow: 3px 3px 5px;* */
+    box-sizing: border-box;
+}
+.subscribe{
+    background-image:url(petss/guinea.jpg) ;
+    background-size: cover;
+    background-position:center;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    height: 300px;
+}
+
+.cat{
+    background-image: url(petss/cat.jpg);
+    background-size: cover;
+    /* image to fully show* */
+    background-position: center;
+    height: 300px;
+    color: white;
+
+}
+nav{
+    text-align: center;
+    background-color: black;
+}
+nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: inline-block;
+}
+nav ul li{
+display: inline;
+margin-right: 150px; /* Adjust space between links
+*/}
+nav ul li :last-child{
+margin-right: 0;
+
+}
+nav ul li a{
+text-decoration: none;
+color:white; 
+font-weight: bold;
+
+}
+.paragraph{
+font-weight: lighter;
+}
+form{
+display:flex;
+}
